@@ -39,9 +39,11 @@
  * Update the basics of our documents to prep for docs content.
  */
 
+.padfix { margin-top: 3%; display:inline-block; }
+
+
 body {
     position: relative; /* For scrollyspy */
-    padding-top: 50px; /* Account for fixed navbar */
 }
 
 /* Keep code small in tables on account of limited space */
