@@ -1,0 +1,98 @@
+[
+    {
+        "id": 910,
+        "account": "70207225",
+        "accountname": "Bladkompaniet",
+        "amount": "5580.35",
+        "currency": "DKK",
+        "approvers": "JBC, KSI",
+        "invoiceno": "2001419",
+        "invoicedate": "14-03-2013",
+        "reference": "",
+        "status": "Ubehandlet"
+    },
+    {
+        "id": 909,
+        "account": "1002",
+        "accountname": "Valsem&oslash;llen",
+        "amount": "5200.35",
+        "currency": "DKK",
+        "approvers": "JBC",
+        "invoiceno": "333317",
+        "invoicedate": "20-03-2013",
+        "reference": "",
+        "status": "Oprettet"
+    },
+    {
+        "id": 906,
+        "account": "61660466",
+        "accountname": "Furago Aps",
+        "amount": "6477.50",
+        "currency": "DKK",
+        "approvers": "KSI",
+        "invoiceno": "1455",
+        "invoicedate": "20-03-2013",
+        "reference": "",
+        "status": "Oprettet"
+    },
+    {
+        "id": 905,
+        "account": "70207225",
+        "accountname": "Bladkompaniet",
+        "amount": "2000.00",
+        "currency": "DKK",
+        "approvers": "JBC, KSI",
+        "invoiceno": "2001420",
+        "invoicedate": "14-03-2013",
+        "reference": "",
+        "status": "Oprettet"
+    },
+    {
+        "id": 904,
+        "account": "70207225",
+        "accountname": "Bladkompaniet",
+        "amount": "5580.35",
+        "currency": "DKK",
+        "approvers": "JBC, KSI",
+        "invoiceno": "2001419",
+        "invoicedate": "14-03-2013",
+        "reference": "",
+        "status": "Ubehandlet"
+    },
+    {
+        "id": 903,
+        "account": "1002",
+        "accountname": "Valsem&oslash;llen",
+        "amount": "5200.35",
+        "currency": "DKK",
+        "approvers": "JBC",
+        "invoiceno": "333317",
+        "invoicedate": "20-03-2013",
+        "reference": "",
+        "status": "Oprettet"
+    },
+    {
+        "id": 902,
+        "account": "61660466",
+        "accountname": "Furago Aps",
+        "amount": "6477.50",
+        "currency": "DKK",
+        "approvers": "KSI",
+        "invoiceno": "1455",
+        "invoicedate": "20-03-2013",
+        "reference": "",
+        "status": "Oprettet"
+    },
+    {
+        "id": 901,
+        "account": "70207225",
+        "accountname": "Bladkompaniet",
+        "amount": "2000.00",
+        "currency": "DKK",
+        "approvers": "JBC, KSI",
+        "invoiceno": "2001420",
+        "invoicedate": "14-03-2013",
+        "reference": "",
+        "status": "Oprettet"
+    }
+]

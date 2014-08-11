@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Scanfak ReDesign</title>
+    <meta name="author" content="zhixin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="src/bootstrap-table.css">
+    <link rel="stylesheet" href="assets/highlightjs/default.min.css">
+    <link rel="stylesheet" href="docs.css">
+    <!--<link rel="stylesheet" href="//wenzhixin.net.cn/css/fork.css">-->
+    <!--[if lt IE 9]>
+    <script src="//wenzhixin.net.cn/js/html5shiv.js"></script>
+    <script src="//wenzhixin.net.cn/js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="scanfak.js"></script>
+</head>
+<body>
+    <div class="page-header">
+        <h2 id="single-checkbox-table">Scanfak ReDesign</h2>
+    </div>
+    <div class="alert alert-success" id="invoice-result">
+    Here is the result of event.
+</div>
+    <div class="bs-example">
+        <table id="invoice-table" data-toggle="table" data-url="invoice.json" data-height="246" data-click-to-select="true" data-select-item-name="state">
+            <thead>
+            <tr>
+                <th data-field="state" data-radio="true"></th>
+                <th data-field="id" data-align="left">ID</th>
+                <th data-field="account" data-align="left">Konto</th>
+                <th data-field="accountname" data-align="left">Kontonavn</th>
+                <th data-field="amount" data-align="right">Beløb</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="row-fluid">
+      <div class="span8">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="active"><a href="#input" role="tab" data-toggle="tab">Indtasting</a></li>
+          <li><a href="#accounting" role="tab" data-toggle="tab">Omkostning</a></li>
+          <li><a href="#purchase" role="tab" data-toggle="tab">Indk&oslash;b</a></li>
+          <li><a href="#static" role="tab" data-toggle="tab">Faste</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="input">
+            <form class="form-horizontal">
+                <div class="row-fluid">
+                    <div class="span6">     
+                        <div class="form-group">
+                            <label for="inputGodkender" class="control-label col-xs-4">Godkender</label>
+                            <div class="col-xs-8">
+                                <input type="text" class="form-control" id="inputGodkender" placeholder="Godkender" />
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+            </form>
+          </div>
+          <div class="tab-pane" id="accounting">
+              <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail" class="control-label col-xs-2">Email</label>
+                    <div class="col-xs-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="control-label col-xs-2">Password</label>
+                    <div class="col-xs-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                </div>
+               </form>
+           </div>
+          <div class="tab-pane" id="purchase">Indkøb.</div>
+          <div class="tab-pane" id="static">Faste..</div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="row-fluid">
+            <div class="span6">     
+                <input id="Button1" type="button" value="Godkend faktura" />
+                <div class="row-fluid">
+                    <div class="span6"><input id="Button2" type="button" value="Afvis" /></div>
+                    <div class="span6"><input id="Button3" type="button" value="Gem" /></div>
+                </div>
+            </div>
+            <div class="span6">     
+                <input id="Button4" type="button" value="Godkend valgte" />
+                <div class="row-fluid">
+                    <div class="span6"><input id="Button5" type="button" value="Forrige" /></div>
+                    <div class="span6"><input id="Button6" type="button" value="Næste" /></div>
+                </div>
+            </div>
+            <div class="span12">     
+                Status:
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/bootstrap-table.js"></script>
+    <script src="common.js"></script>
+</body>
+</html>
