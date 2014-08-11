@@ -1,4 +1,0 @@
-ScanfakRedesign
-===============
-
-Scanfak redesign 
